@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 from collections import deque
-cap = cv.VideoCapture('nudt-rm-auto-aim-training/first-homework/first-homework.mp4')
+cap = cv.VideoCapture('./first-homework/first-homework.mp4')
 
 if not cap.isOpened():
     print("YIDAYULIN ERROR:NOT OPEN")
